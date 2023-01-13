@@ -47,14 +47,14 @@ table {
 	border-spacing: 0;
 }
 
-* {border:1pt solid red;}
+/* * {border:1pt solid red;} */
 
 
 header {
     text-align: center; 
     padding: 40px; 
     font-size: 24pt;
-    font-family: sans-serif;
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 footer {
@@ -71,10 +71,13 @@ footer {
     justify-content: center;
 }
 
+/* .imgcontainer {
+    height: 400px;
+} */
+
+
 img {
-    max-height:500px;
-    max-width:500px;
-    height:auto;
+    height:500px;
     width:auto;
 }
 
