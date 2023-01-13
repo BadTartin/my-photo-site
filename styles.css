@@ -73,3 +73,13 @@ img {
     height:auto;
     width:auto;
 }
+
+carousel {
+    display: flex;
+    justify-content: center;
+}
+
+carousel img {
+    max-height: 50px;
+    padding: 0 10px;
+}
