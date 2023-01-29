@@ -80,20 +80,42 @@ img {
 .gallery {
     overflow: scroll;
     scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 .gallery_img {
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
+    scroll-snap-align: center;
     margin-bottom: 10px;
     min-height: 100vh;
     max-height: 100vh;
     object-fit: cover;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .lil-nav {
     overflow-y: scroll;
     overflow-x: hidden;
   }
+
+.lil-nav a {
+    height: 200px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lil-nav_img {
+    object-fit: cover;
+    min-width: 100%;
+    filter: saturate(0);
+    transition: 0.3s ease all;
+}
+
+.lil-nav_img:hover {
+    transform: scale(1.05);
+    filter: saturate(1);
+}
 
 /* .main {
     height: 80vh;
