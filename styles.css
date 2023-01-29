@@ -64,16 +64,25 @@ footer {
     font-size: 8pt;
 }
 
-.main {
+img {
+    display: block;
+    max-width: 100%;
+  }
+  
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-gap: 20px;
+  }
+
+
+
+/* .main {
     height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-/* .imgcontainer {
-    height: 400px;
-} */
 
 
 img {
@@ -91,4 +100,4 @@ carousel {
 carousel img {
     max-height: 50px;
     padding: 0 10px;
-}
+} */
