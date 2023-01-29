@@ -73,9 +73,27 @@ img {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-gap: 20px;
+    overflow: hidden;
+    height: 100vh;
   }
 
+.gallery {
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
 
+.gallery_img {
+    scroll-snap-align: start;
+    margin-bottom: 10px;
+    min-height: 100vh;
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.lil-nav {
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
 
 /* .main {
     height: 80vh;
